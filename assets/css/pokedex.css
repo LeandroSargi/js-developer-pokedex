@@ -146,6 +146,7 @@
     border-radius: 1rem;
 }
 
+<<<<<<< HEAD
 .modal {
     display: flex;
     justify-content: center;
@@ -183,6 +184,8 @@
 }
 
 
+=======
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;

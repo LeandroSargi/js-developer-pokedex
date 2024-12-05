@@ -1,9 +1,12 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
+<<<<<<< HEAD
 const pokemonModal = document.getElementById('pokemonModal');
 const pokemonDetails = document.getElementById('pokemonDetails');
 const closeModalButton = document.getElementById('closeModal');
 
+=======
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
 
 const maxRecords = 151
 const limit = 10
@@ -48,6 +51,7 @@ loadMoreButton.addEventListener('click', () => {
     } else {
         loadPokemonItens(offset, limit)
     }
+<<<<<<< HEAD
 })
 
 
@@ -94,3 +98,6 @@ loadMoreButton.addEventListener('click', () => {
 // Inicializar com eventos
 addPokemonClickEvent();
 
+=======
+})
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
